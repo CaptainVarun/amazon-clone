@@ -1,0 +1,63 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__deals {
+  color: #ccc;
+  margin-left: 50px;
+  margin-right: 5px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+.header__cs {
+  color: #ccc;
+
+  margin-left: 21px;
+  margin-right: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.header__gcard {
+  color: #ccc;
+
+  margin-left: 21px;
+  margin-right: 5px;
+  text-align: center;
+}
+.header__registry {
+  color: #ccc;
+
+  margin-left: 21px;
+  margin-right: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.header__sell {
+  color: #ccc;
+
+  margin-left: 21px;
+  margin-right: 30px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: center;
+}
