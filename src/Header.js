@@ -7,8 +7,7 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 import RoomIcon from "@material-ui/icons/Room";
 import ReactCountryFlag from "react-country-flag";
-import MenuIcon from "@material-ui/icons/Menu";
-import { IconButton } from "@material-ui/core";
+import MenuIcon from "@material-ui/icons/Menu"; 
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();

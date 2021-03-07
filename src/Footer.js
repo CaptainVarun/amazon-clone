@@ -1,12 +1,8 @@
 import React from "react";
-import "./Footer.css";
-import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import "./Footer.css"; 
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
-import RoomIcon from "@material-ui/icons/Room";
-import ReactCountryFlag from "react-country-flag";
+import { auth } from "./firebase"; 
 
 function Footer() {
   const [{ basket, user }, dispatch] = useStateValue();

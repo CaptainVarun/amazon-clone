@@ -23,4 +23,4 @@ function Carousels() {
   );
 }
 
-export default Carousel;
+export default Carousels;

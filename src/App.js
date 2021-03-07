@@ -15,7 +15,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./Orders";
 
 const promise = loadStripe(
-  "pk_test_51GjNIZBj4odOhWDfzYOye9SiDuFUBMbvpqLexjR94soje5ZTqt6ZfJj7LuOZIR4Mi9mV42QXNNXQqUjazklkfE2e000IJuchEv"
+  "pk_test_stripe_key"
 );
 
 function App() {

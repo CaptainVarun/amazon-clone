@@ -3,8 +3,6 @@ import "./Checkout.css";
 import Subtotal from "./Subtotal.js";
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "./StateProvider";
-import FlipMove from "react-flip-move";
-import Magnifier from "react-magnifier";
 
 function Checkout() {
   const [{ basket }] = useStateValue();
@@ -24,7 +22,7 @@ function Checkout() {
               You have no items in your basket. To buy one or more items, click
               "Add to basket" next to the item.
             </p>
-            {/*               <CheckoutProduct
+            {/* <CheckoutProduct
                 id="12321341"
                 title="The Lean Startup"
                 price={29.99}

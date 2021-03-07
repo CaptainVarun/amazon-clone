@@ -6,8 +6,7 @@ import Magnifier from "react-magnifier";
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
-  const addToBasket = () => {
-    // dispatch the item into data layer
+  const addToBasket = () => { 
     dispatch({
       type: "ADD_TO_BASKET",
       item: {

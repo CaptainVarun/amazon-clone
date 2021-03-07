@@ -8,9 +8,7 @@ import Payment from "./Payment";
 function CheckoutProduct({ id, title, price, rating, image, hideButton }) {
   const [{}, dispatch] = useStateValue();
   const [fadeOut, setFadeOut] = useState(0);
-
-  const voptions = ["1", "2", "3"];
-
+ 
   const removeFromBasket = () => {
     setFadeOut(1);
     dispatch({

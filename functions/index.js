@@ -23,7 +23,7 @@ app.post("/payments/create", async (request, response) => {
     currency: "usd",
   });
 
-  // OK - Created
+  // Created
   response.status(201).send({
     clientSecret: paymentIntent.client_secret,
   });
@@ -31,11 +31,7 @@ app.post("/payments/create", async (request, response) => {
 
 // - Listen command
 exports.api = functions.https.onRequest(app);
-
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-// http://localhost:5001/challenge-90860/us-central1/api
-
+ 
 // exports.helloWorld = functions.https.onRequest((request, response) => {
 //   functions.logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
